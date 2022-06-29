@@ -1,2 +1,0 @@
-5 times incl. 12:53:52,387 - panoptes.data.pipeline.validate [WARNING] Unrecognized error message from Validator: ['must be of datetime type', 'must be of datetime type']
-2 times incl. 12:53:52,393 - panoptes.data.pipeline.validate [WARNING] Unrecognized error message from Validator: ['must be of integer type', 'must be of integer type']
