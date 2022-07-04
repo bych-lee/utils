@@ -1,0 +1,1 @@
+1 times incl. 15:53:07,116 - kafka.coordinator [WARNING] Heartbeat failed for group panoptes-rca-resp-data-dev because it is rebalancing

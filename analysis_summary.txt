@@ -1,20 +1,13 @@
-205 times incl. 10:01:06,569 - panoptes.data.database.mongo [WARNING] No collection for responseAnomalies... in DB
-11 times incl. 10:01:06,649 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: After preprocessing, there are no response data remaining for analysis of ...
-26 times incl. 10:07:12,049 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] No wafer event data corresponding to alarm event of {...}
-196 times incl. 10:08:48,341 - panoptes.data.database.mongo [WARNING] No collection for sourceAnomalies... in DB
-132 times incl. 10:08:48,345 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No parameter grade data for ...
-105 times incl. 10:08:48,412 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Source anomaly calculator completed but no result stored in DB.
-24 times incl. 10:10:35,296 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: Source anomaly for ... already computed and stored in DB.
-6 times incl. 10:10:37,701 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No source data left after preprocessing for ...
-5 times incl. 10:11:13,178 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: Not the target metrology step (..., ['M1C MASK CD(FDC)'])
-13 times incl. 10:27:22,333 - panoptes.data.pipeline.expr [WARNING] Error in parsing "FLOW_ID.split('_')[1]": ValueError("invalid literal for int() with base 10: '...'")
-1 times incl. 11:40:37,457 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No source data for ...
-1 times incl. 11:40:37,457 - panoptes.data.database.mongo [WARNING] No collection for sourceData... in DB
-5 times incl. 12:06:14,694 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: No new response data for ...
-8 times incl. 12:49:10,651 - panoptes.data.pipeline.transform [WARNING] Unknown parameter data type: b'INT'!
-748 times incl. 13:18:42,262 - panoptes.data.pipeline.transform [WARNING] Error in computing summary data: ValueError("could not convert string to float: b'_'")
-1 times incl. 13:34:34,660 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Error in computing response anomaly: KeyError("['oper_desc'] not in index")
-8 times incl. 13:46:21,793 - panoptes.data.database.mongo [WARNING] No collection for waferEvents... in DB
-8 times incl. 13:46:21,793 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] Error in processing alarm event for analyzing anomalies: UnboundLocalError("local variable 'wafer_event' referenced before assignment")
-1 times incl. 15:55:50,038 - panoptes.data.database.mongo [WARNING] No collection for spcRules... in DB
-1 times incl. 15:55:50,043 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: No SPC rule data for ...
+200 times incl. 10:02:19,007 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No parameter grade data for ...
+23 times incl. 10:03:15,917 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] No wafer event data corresponding to alarm event of {...}
+1 times incl. 10:04:12,614 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in extracting input data for SrcAnomalyCalculator: TypeError("'NoneType' object is not subscriptable")
+41 times incl. 10:06:52,356 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in computing source anomaly: KeyError("['...'] not in index")
+1 times incl. 10:07:19,060 - panoptes.data.pipeline.expr [WARNING] Error in parsing "FLOW_ID.split('_')[1]": ValueError("invalid literal for int() with base 10: '...'")
+4 times incl. 10:19:16,206 - kafka.coordinator.consumer [WARNING] group_id is None: disabling auto-commit.
+150 times incl. 10:22:36,735 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: No SPC rule data for ...
+9 times incl. 10:26:10,250 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Error in loading response data and SPC rules: TypeError('name must be an instance of str')
+7 times incl. 11:20:09,091 - panoptes.data.pipeline.extract [WARNING] Error in ETL of Datalake data: ValueError('No objects to concatenate')
+7 times incl. 11:20:09,102 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in loading pre-computed source anomaly: TypeError('list indices must be integers or slices, not str')
+1 times incl. 12:25:50,131 - panoptes.data.pipeline.extract [WARNING] Error in ETL of Datalake data: OSError("Could not open parquet input source '<Buffer>': IOError: [Errno 9] Bad file descriptor. Detail: Python exception: OSError")
+11 times incl. 12:27:41,642 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in loading source data: ValueError('column must be a scalar')
+13 times incl. 12:47:53,539 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: After preprocessing, there are no response data remaining for analysis of ...
