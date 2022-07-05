@@ -1,13 +1,7 @@
-200 times incl. 10:02:19,007 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No parameter grade data for ...
-23 times incl. 10:03:15,917 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] No wafer event data corresponding to alarm event of {...}
-1 times incl. 10:04:12,614 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in extracting input data for SrcAnomalyCalculator: TypeError("'NoneType' object is not subscriptable")
-41 times incl. 10:06:52,356 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in computing source anomaly: KeyError("['...'] not in index")
-1 times incl. 10:07:19,060 - panoptes.data.pipeline.expr [WARNING] Error in parsing "FLOW_ID.split('_')[1]": ValueError("invalid literal for int() with base 10: '...'")
-4 times incl. 10:19:16,206 - kafka.coordinator.consumer [WARNING] group_id is None: disabling auto-commit.
-150 times incl. 10:22:36,735 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: No SPC rule data for ...
-9 times incl. 10:26:10,250 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Error in loading response data and SPC rules: TypeError('name must be an instance of str')
-7 times incl. 11:20:09,091 - panoptes.data.pipeline.extract [WARNING] Error in ETL of Datalake data: ValueError('No objects to concatenate')
-7 times incl. 11:20:09,102 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in loading pre-computed source anomaly: TypeError('list indices must be integers or slices, not str')
-1 times incl. 12:25:50,131 - panoptes.data.pipeline.extract [WARNING] Error in ETL of Datalake data: OSError("Could not open parquet input source '<Buffer>': IOError: [Errno 9] Bad file descriptor. Detail: Python exception: OSError")
-11 times incl. 12:27:41,642 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in loading source data: ValueError('column must be a scalar')
-13 times incl. 12:47:53,539 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: After preprocessing, there are no response data remaining for analysis of ...
+428 times incl. 10:04:30,571 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: No SPC rule data for ...
+28 times incl. 10:25:50,152 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] No wafer event corresponding to alarm event of {...}
+252 times incl. 10:51:27,788 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No parameter grade data for ...
+6 times incl. 10:52:44,073 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Stop computing response anomaly: After preprocessing, there are no response data remaining for analysis of ...
+4 times incl. 11:12:32,218 - kafka.coordinator.consumer [WARNING] group_id is None: disabling auto-commit.
+2 times incl. 13:46:35,781 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Error in loading response data and SPC rules: TypeError('name must be an instance of str')
+10 times incl. 15:29:37,512 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in computing source anomaly: ValueError('Cannot convert non-finite values (NA or inf) to integer')
