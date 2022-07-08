@@ -1,7 +1,11 @@
-421 times incl. 10:00:08,983 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No source data from DB and Datalake for ...
-9 times incl. 10:11:38,119 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No parameter grade data for ...
-106 times incl. 10:14:39,766 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] Error in processing alarm event for analyzing anomalies: KeyError('oper_id')
-4 times incl. 12:12:48,693 - kafka.coordinator.consumer [WARNING] group_id is None: disabling auto-commit.
-3 times incl. 14:29:39,674 - panoptes.backend.rca.analysis.pipeline.response [WARNING] Error in computing response anomaly: KeyError("['module_id'] not in index")
-4 times incl. 15:18:49,597 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] No wafer event corresponding to alarm event of {...}
-2 times incl. 15:41:30,376 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in loading source data: TypeError("'NoneType' object is not iterable")
+103 times incl. 10:06:13,170 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] AlarmHandler: Error getting wafer event from alarm event of {...}: KeyError('module_nm')
+63 times incl. 10:06:13,171 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] No wafer event corresponding to alarm event of {...}
+1906 times incl. 10:13:39,236 - panoptes.data.pipeline.transform [WARNING] Error in computing summary data: ValueError("could not convert string to float: b'_'")
+10 times incl. 10:26:52,249 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in loading source data: TypeError("'NoneType' object is not iterable")
+26 times incl. 10:27:02,220 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No source data from DB and Datalake for ...
+1 times incl. 10:29:54,309 - panoptes.data.pipeline.extract [WARNING] Error in ETL of Datalake data: UnboundLocalError("local variable 'resp' referenced before assignment")
+1 times incl. 10:29:54,309 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in loading pre-computed source anomaly: KeyError('end_time')
+11 times incl. 11:28:14,663 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Stop computing source anomaly: No parameter grade data for ...
+2 times incl. 14:16:23,302 - panoptes.data.pipeline.extract [WARNING] Couldn't create FDCSource.Request from {...}: TypeError("unsupported operand type(s) for -: 'str' and 'datetime.timedelta'")
+2 times incl. 14:27:26,748 - panoptes.backend.rca.analysis.pipeline.source [WARNING] SrcAnomalyCalculator: Error in extracting input data: TypeError("unsupported operand type(s) for -: 'str' and 'datetime.timedelta'")
+4 times incl. 15:28:09,192 - panoptes.backend.rca.analysis.pipeline.source [WARNING] Error in computing source anomaly: TypeError("unsupported operand type(s) for +: 'float' and 'str'")

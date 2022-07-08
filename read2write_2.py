@@ -14,7 +14,10 @@ for line in lines:
         start_info = line
     elif result_info_pttrn in line:
         result_info = line
-        success_start_infos.append(start_info)
+        try:
+            success_start_infos.append(start_info)
+        except NameError as e:
+            print(e)
 
 success_cases = pd.DataFrame()
 for success_start_info in success_start_infos:
