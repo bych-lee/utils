@@ -29,7 +29,7 @@ for success_start_info in success_start_infos:
     string = success_start_info[left:right]
 
     entries = []
-    items = string.split(":")
+    items = string.split(": ")
     for item in items:
         elements = item.split(" ")
         entry = " ".join(elements[:-1])
