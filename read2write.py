@@ -4,7 +4,7 @@ with open(input(), "r") as f:
 
 warnings = []
 for line in lines:
-    if "WARNING" in line:
+    if "[WARNING]" in line:
         warnings.append(line)
 
 items = []
