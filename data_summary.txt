@@ -1,0 +1,1 @@
+3931 times incl. 15:46:48,139 - panoptes.data.pipeline.transform [WARNING] Error in extracting the data:
