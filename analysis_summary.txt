@@ -1,11 +1,5 @@
-279 times incl. 16:00:18,971 - panoptes.data.pipeline.extract [WARNING] DatalakeSource: Failed to load parquet files from /mnt/datalake/gauss/panoptes_rca_fdc_summary/*.parq* for a minute.
-300 times incl. 16:00:18,972 - panoptes.backend.rca.analysis.pipeline.source [WARNING] SrcAnomalyCalculator: Stop computing - No source data from DB and Datalake for ...
-49 times incl. 16:02:02,041 - panoptes.backend.rca.analysis.pipeline.response [WARNING] RespAnomalyCalculator: Stop computing - No 4DB.R70511B0C response data remaining after preprocessing.
-41 times incl. 16:02:53,008 - panoptes.backend.rca.analysis.pipeline.source [WARNING] SrcAnomalyCalculator: Error in computing source anomaly: IndexError('boolean index did not match indexed array along dimension 0; dimension is ... but corresponding boolean dimension is ...')
-4 times incl. 16:06:55,860 - panoptes.backend.rca.analysis.pipeline.source [WARNING] SrcAnomalyCalculator: Stop computing - No parameter grade data for ...
-16 times incl. 16:26:06,755 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] AlarmHandler: No wafer event corresponding to alarm event ...
-4 times incl. 17:40:17,444 - kafka.coordinator.consumer [WARNING] group_id is None: disabling auto-commit.
-22 times incl. 18:40:57,602 - panoptes.data.pipeline.extract [WARNING] DatalakeSource: Error in ETL of Datalake data: ConnectionError(MaxRetryError("HTTPConnectionPool(host='happelin.skhynix.com', port=80): Max retries exceeded with url: /api/notebook/job/2H6QZ2TNG/20220615-175416_1634593478 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f74962fe580>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))"))
-10 times incl. 04:10:54,356 - panoptes.backend.rca.analysis.pipeline.response [WARNING] RespAnomalyCalculator: Error in getting pre-computed response anomalies for ...: KeyError('spc_time')
-11 times incl. 04:11:00,957 - panoptes.backend.rca.analysis.pipeline.response [WARNING] RespAnomalyCalculator: Error in computing response anomaly: TypeError("'Collection' object is not callable. If you meant to call the 'distince' method on a 'Collection' object it is failing because no such method exists.")
-1 times incl. 13:30:43,274 - panoptes.backend.rca.analysis.pipeline.response [WARNING] RespAnomalyCalculator: Stop computing ... - No wafer events.
+48 times incl. 16:01:17,428 - panoptes.backend.rca.analysis.pipeline.source [WARNING] SrcAnomalyCalculator: Stop computing - No source data from DB and Datalake for ...
+48 times incl. 16:01:17,427 - panoptes.data.pipeline.extract [WARNING] DatalakeSource: Failed to load parquet files from /mnt/datalake/gauss/panoptes_rca_fdc_summary/*.parq* for a minute.
+2 times incl. 16:05:33,137 - panoptes.backend.rca.analysis.pipeline.source [WARNING] SrcAnomalyCalculator: Error in computing source anomaly: IndexError('boolean index did not match indexed array along dimension 0; dimension is ... but corresponding boolean dimension is ...')
+9 times incl. 17:19:03,350 - panoptes.backend.rca.analysis.pipeline.alarm [WARNING] AlarmHandler: No wafer event corresponding to alarm event ...
+1 times incl. 19:22:35,284 - kafka.coordinator.consumer [WARNING] group_id is None: disabling auto-commit.
